@@ -1,0 +1,14 @@
+{
+  "model": "C:\\Users\\hp\\Documents\\ChatGPT\\TODO\\agent_models\\two_agent_system.joblib",
+  "queries": 500,
+  "model_load_seconds": 0.8321195999997144,
+  "agent1_latency_ms_median": 2.345049999348703,
+  "agent2_latency_ms_median": 55.270349999773316,
+  "end_to_end_latency_ms_median": 58.20255000071484,
+  "end_to_end_latency_ms_p95": 64.13249999968684,
+  "throughput_queries_per_second": 17.063683174023502,
+  "process_rss_mb_before_model_load": 142.67,
+  "process_rss_mb_after_model_load": 208.3,
+  "model_load_rss_delta_mb": 65.63,
+  "memory_measurement": "process RSS via psutil"
+}

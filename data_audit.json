@@ -1,0 +1,95 @@
+{
+  "train": {
+    "rows": 18810,
+    "columns": [
+      "flags",
+      "instruction",
+      "category",
+      "intent",
+      "response"
+    ],
+    "intents": 27,
+    "categories": 11,
+    "class_counts": {
+      "cancel_order": 699,
+      "change_order": 698,
+      "change_shipping_address": 681,
+      "check_cancellation_fee": 665,
+      "check_invoice": 700,
+      "check_payment_methods": 699,
+      "check_refund_policy": 698,
+      "complaint": 700,
+      "contact_customer_service": 700,
+      "contact_human_agent": 699,
+      "create_account": 698,
+      "delete_account": 696,
+      "delivery_options": 697,
+      "delivery_period": 699,
+      "edit_account": 700,
+      "get_invoice": 699,
+      "get_refund": 698,
+      "newsletter_subscription": 699,
+      "payment_issue": 699,
+      "place_order": 699,
+      "recover_password": 696,
+      "registration_problems": 699,
+      "review": 698,
+      "set_up_shipping_address": 698,
+      "switch_account": 700,
+      "track_order": 697,
+      "track_refund": 699
+    }
+  },
+  "validation": {
+    "rows": 3572,
+    "columns": [
+      "flags",
+      "instruction",
+      "category",
+      "intent",
+      "response"
+    ],
+    "class_counts": {
+      "cancel_order": 52,
+      "change_order": 117,
+      "change_shipping_address": 146,
+      "check_cancellation_fee": 143,
+      "check_invoice": 138,
+      "check_payment_methods": 150,
+      "check_refund_policy": 149,
+      "complaint": 150,
+      "contact_customer_service": 150,
+      "contact_human_agent": 150,
+      "create_account": 125,
+      "delete_account": 132,
+      "delivery_options": 87,
+      "delivery_period": 150,
+      "edit_account": 103,
+      "get_invoice": 131,
+      "get_refund": 136,
+      "newsletter_subscription": 150,
+      "payment_issue": 150,
+      "place_order": 149,
+      "recover_password": 150,
+      "registration_problems": 150,
+      "review": 150,
+      "set_up_shipping_address": 150,
+      "switch_account": 120,
+      "track_order": 109,
+      "track_refund": 85
+    }
+  },
+  "duplicates": {
+    "train_repeated_normalized_rows": 1802,
+    "train_repeated_template_rows": 1897,
+    "validation_repeated_normalized_rows": 38,
+    "validation_normalized_overlap_with_train": 160,
+    "validation_literal_normalized_overlap_with_train": 115,
+    "validation_template_overlap_with_train": 203,
+    "conflicting_labels_for_normalized_train_query_count": 0
+  },
+  "limitations": [
+    "Template normalization is a reproducible heuristic, not semantic near-duplicate detection.",
+    "Evaluation CSV is unlabeled and must not be used to select thresholds or estimate metrics."
+  ]
+}

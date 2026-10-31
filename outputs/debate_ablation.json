@@ -1,0 +1,55 @@
+{
+  "sample_seed": 42,
+  "eligible_rows_after_template_filter": 3369,
+  "template_overlap_rows_excluded": 203,
+  "systems": {
+    "A_two_agent": {
+      "queries": 500,
+      "intent_accuracy": 0.972,
+      "decision_accuracy": null,
+      "clarification_precision": null,
+      "escalation_precision": null,
+      "expected_decision_labeled_rows": 0,
+      "unsupported_completed_action_claim_rate": 0.002,
+      "answer_rate": 0.72,
+      "clarify_rate": 0.28,
+      "escalate_rate": 0.0,
+      "median_latency_ms": 68.33644999915123,
+      "api_calls_per_query": 0
+    },
+    "B_five_agent_no_debate": {
+      "queries": 500,
+      "intent_accuracy": 0.972,
+      "decision_accuracy": null,
+      "clarification_precision": null,
+      "escalation_precision": null,
+      "expected_decision_labeled_rows": 0,
+      "unsupported_completed_action_claim_rate": 0.0,
+      "answer_rate": 0.896,
+      "clarify_rate": 0.08,
+      "escalate_rate": 0.024,
+      "median_latency_ms": 59.685900000658876,
+      "api_calls_per_query": 0
+    },
+    "C_five_agent_debate": {
+      "queries": 500,
+      "intent_accuracy": 0.972,
+      "decision_accuracy": null,
+      "clarification_precision": null,
+      "escalation_precision": null,
+      "expected_decision_labeled_rows": 0,
+      "unsupported_completed_action_claim_rate": 0.0,
+      "answer_rate": 0.888,
+      "clarify_rate": 0.08,
+      "escalate_rate": 0.032,
+      "median_latency_ms": 59.84904999968421,
+      "api_calls_per_query": 0
+    }
+  },
+  "limitations": [
+    "Decision quality is null unless cases contain manually reviewed expected_decision labels.",
+    "Intent accuracy uses only supplied intent labels.",
+    "Unsupported-claim rate detects explicit phrases and is not a semantic guarantee.",
+    "A uses legacy status-to-decision mapping for comparability."
+  ]
+}
