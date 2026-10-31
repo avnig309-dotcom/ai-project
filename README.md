@@ -1,4 +1,4 @@
-Intelligent Customer Support & Automated Query Resolution
+# Intelligent Customer Support & Automated Query Resolution
 A five-agent customer-support prototype that identifies what a customer needs, looks up relevant support information, checks whether that information is enough, and decides whether to ANSWER, CLARIFY, or ESCALATE.
 
 The main idea is straightforward: a support system should not give an answer just because it found something that looks relevant. It should also check whether the answer matches the question and whether the available evidence actually supports it.
